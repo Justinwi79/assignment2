@@ -1,0 +1,56 @@
+Git Lab Tutorials 10/13/22
+GitHub account set up about 4 years ago. 
+Justinwi79
+https://github.com/Justinwi79/assignment2.git
+
+
+
+1. justinwindham@Justins-MacBook-Pro-2 assignment2 % git commit -m "added files"
+[master 93bced4] added files
+ 4 files changed, 95 insertions(+)
+ create mode 100644 answers.txt
+ create mode 100644 docs/answers.txt
+ create mode 100644 docs/status.txt
+justinwindham@Justins-MacBook-Pro-2 assignment2 % git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.29 KiB | 1.29 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Justinwi79/assignment2.git
+   f4975e5..93bced4  master -> master
+justinwindham@Justins-MacBook-Pro-2 assignment2 % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    answers.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+justinwindham@Justins-MacBook-Pro-2 assignment2 % 
+
+2. 12 git log
+
+3. 10/14/2022 git log README.md
+
+4. It's light weight and points to a file instead of modifying it. 
+
+5. Git log tells the history and git status gives information about the working directory.
+
+6. git log -- Vehicle.h 
+
+7. git log --grep="file" 
+
+8. Inheritance is the use of different classes. 
+   Polymorphism is basically the ability to use different variable types. 
+   Encapsulation keeps data protected from being used by other functions. 
+
+9. The Dictatoor and Lieutenants workflow has an added step that code has to go through 
+    before being pushed to the repository. 
+
+10. Conflicts have to be resolved by the developer in Centralized Workflow and 
+    more work is added. 
